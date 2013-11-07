@@ -1,11 +1,11 @@
 require "spec_helper"
 
-describe "Facebook", :sauce => true do
+describe "TED-Ed", :sauce => true do
   
   context "Homepage" do
     
     before :all do
-      @url = FactoryGirl.create(:facebook, :secure)
+      @url = FactoryGirl.create(:staging)
     end
     
     before :each do
@@ -13,8 +13,7 @@ describe "Facebook", :sauce => true do
     end
     
     it "should display logo" do
-      expect(page).to have_css("a.lfloat")
-      sleep 10
+      visit @url
     end
     
   end

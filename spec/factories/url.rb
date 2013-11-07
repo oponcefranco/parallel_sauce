@@ -22,23 +22,16 @@ FactoryGirl.define do
     initialize_with { new("#{protocol}#{[host, port].compact.join(':')}#{path}")}
     
     factory :production do
-      subdomain 'www'
+      subdomain 'ed'
       staging_name nil
-      domain_name 'bookrenter.com'
+      domain_name 'ted.com'
       port nil
     end
     
     factory :staging do
-      subdomain 'www'
-      staging_name 'devqa'
-      domain_name 'stg.bookrenter.com'
-      port nil
-    end
-    
-    factory :facebook do
-      subdomain 'www'
-      staging_name nil
-      domain_name 'facebook.com'
+      subdomain nil
+      staging_name 'teded-staging'
+      domain_name 'herokuapp.com'
       port nil
     end
     
