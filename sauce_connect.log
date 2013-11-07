@@ -198,3 +198,218 @@
 2013-11-06 16:21:10,009 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: e63e434573774415a83c7ff366ed8d4d
 2013-11-06 16:21:10,013 - sauce_connect:642 - INFO - Connected! You may start your tests.
 2013-11-06 16:21:25,585 - sauce_connect:0 - INFO - received SIGINT
+2013-11-06 21:58:28,480 - sauce_connect:554 - INFO - / Starting \
+2013-11-06 21:58:28,483 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2013-11-06 21:58:28,490 - sauce_connect:567 - DEBUG - System is -7.0 hours off UTC
+2013-11-06 21:58:28,492 - sauce_connect:569 - DEBUG - options: {'user': 'oponcefranco', 'ports': ['50043'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2013-11-06 21:58:28,493 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['50043'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.6.8-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2013-11-06 21:58:28,494 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['50043']
+2013-11-06 21:58:28,507 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:50043 in 6ms
+2013-11-06 21:58:29,240 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["50043"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.6.8-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2013-11-06 21:58:33,630 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (86be728a467d48238caa03989e0d8178)
+2013-11-06 21:58:34,210 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2013-11-06 21:59:04,118 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki8062.miso.saucelabs.com
+2013-11-06 21:59:04,173 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:50043 in 3ms
+2013-11-06 21:59:04,178 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2013-11-06 21:59:04,180 - sauce_connect:642 - INFO - Connecting to tunnel host maki8062.miso.saucelabs.com as oponcefranco
+2013-11-06 21:59:04,456 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 50047
+2013-11-06 21:59:04,476 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2013-11-06 21:59:04,795 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2013-11-06 21:59:04,823 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 237601fbd99d4aeabb5e4384c7d8762b
+2013-11-06 21:59:04,826 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2013-11-06 21:59:21,210 - sauce_connect:0 - INFO - received SIGINT
+2013-11-06 22:14:29,244 - sauce_connect:554 - INFO - / Starting \
+2013-11-06 22:14:29,249 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2013-11-06 22:14:29,255 - sauce_connect:567 - DEBUG - System is -7.0 hours off UTC
+2013-11-06 22:14:29,256 - sauce_connect:569 - DEBUG - options: {'user': 'oponcefranco', 'ports': ['50354'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2013-11-06 22:14:29,259 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['50354'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.6.8-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2013-11-06 22:14:29,259 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['50354']
+2013-11-06 22:14:29,273 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:50354 in 8ms
+2013-11-06 22:14:30,323 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["50354"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.6.8-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2013-11-06 22:14:35,236 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (b825342f94464ae5a43165b8328a8f6b)
+2013-11-06 22:14:36,463 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2013-11-06 22:15:11,177 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki8062.miso.saucelabs.com
+2013-11-06 22:15:11,191 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:50354 in 0ms
+2013-11-06 22:15:11,197 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2013-11-06 22:15:11,200 - sauce_connect:642 - INFO - Connecting to tunnel host maki8062.miso.saucelabs.com as oponcefranco
+2013-11-06 22:15:11,311 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 50358
+2013-11-06 22:15:11,319 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2013-11-06 22:15:11,842 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2013-11-06 22:15:11,861 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 93104ffbea344078a8632e25959320f9
+2013-11-06 22:15:11,862 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2013-11-06 22:16:26,292 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/ -> 500 (55741ms)
+2013-11-06 22:16:26,582 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/favicon.ico -> 200 (208ms)
+2013-11-06 22:16:32,750 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/ -> 200 (6186ms)
+2013-11-06 22:16:33,112 - sauce_connect:0 - INFO - GET http://fast.fonts.com/cssapi/e1b361c6-3f49-479a-b49c-ae79f364d3a9.css -> 200 (436ms)
+2013-11-06 22:16:33,117 - sauce_connect:0 - INFO - GET http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css -> 200 (426ms)
+2013-11-06 22:16:33,214 - sauce_connect:0 - INFO - GET http://fast.fonts.com/t/1.css?apiType=css&projectid=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (23ms)
+2013-11-06 22:16:33,467 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/modernizr-7d06f0b01eae0cbb7a81516487568c46.js -> 200 (766ms)
+2013-11-06 22:16:33,526 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/application-responsive-137b123a4be36222388c61b064055bbf.css -> 200 (772ms)
+2013-11-06 22:16:33,677 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/application-base-1e05407ab287df9cfbf3b7bfbb1055b7.css -> 200 (978ms)
+2013-11-06 22:16:34,183 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/application-d41b9dad01113aabc3fd257be2c224d0.css -> 200 (1483ms)
+2013-11-06 22:16:34,391 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/assets/busy.gif -> 200 (156ms)
+2013-11-06 22:16:34,615 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/ted_footer_logo_gray-6d1b01898d55d096a7fa32eea28382cb.png -> 200 (346ms)
+2013-11-06 22:16:34,786 - sauce_connect:0 - INFO - GET http://fast.fonts.com/d/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff?d44f19a684109620e484157ea190e818a1262f6e443e6f7727eff2d49ca55c9b180b0b810c7138baa878423986f57da1fa80da773ef5ca6c2b28a433720a25e5d508e9f58425ed99b9e6ddfbf78e73983a92017a8e5c37f8ef2331e05d1729afddc9d315f7451efae3bb8d4273cb46c4254be32e7541bb9405d7a4adf07ccc0fc8aee835247c1a4b3fd54fc5a998de620696f470aef0a15d0e4b99e60702a9747b793b65e6bff441ce1eeb05ee85cf5a&projectId=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (199ms)
+2013-11-06 22:16:34,976 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/tour_next_button-64251350ac4add7e6249b41f31490c3f.png -> 200 (716ms)
+2013-11-06 22:16:34,987 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/assets/icon-ted.png -> 200 (751ms)
+2013-11-06 22:16:35,026 - sauce_connect:0 - INFO - GET http://fast.fonts.com/d/14ff6081-326d-4dae-b778-d7afa66166fc.woff?d44f19a684109620e484157ea190e818a1262f6e443e6f7727eff2d49ca55c9b180b0b810c7138baa878423986f57da1fa80da773ef5ca6c2b28a433720a25e5d508e9f58425ed99b9e6ddfbf78e73983a92017a8e5c37f8ef2331e05d1729afddc9d315f7451efae3bb8d4273cb46c4254be32e7541bb9405d7a4adf07ccc0fc8aee835247c1a4b3fd54fc5a998de620696f470aef0a15d0e4b99e60702a9747b793b65e6bff441ce1eeb05ee85cf5a&projectId=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (417ms)
+2013-11-06 22:16:35,023 - sauce_connect:0 - INFO - GET http://fast.fonts.com/d/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff?d44f19a684109620e484157ea190e818a1262f6e443e6f7727eff2d49ca55c9b180b0b810c7138baa878423986f57da1fa80da773ef5ca6c2b28a433720a25e5d508e9f58425ed99b9e6ddfbf78e73983a92017a8e5c37f8ef2331e05d1729afddc9d315f7451efae3bb8d4273cb46c4254be32e7541bb9405d7a4adf07ccc0fc8aee835247c1a4b3fd54fc5a998de620696f470aef0a15d0e4b99e60702a9747b793b65e6bff441ce1eeb05ee85cf5a&projectId=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (415ms)
+2013-11-06 22:16:35,069 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/ico-search-d698f2666e61955a1a3f7331674a7099.png -> 200 (408ms)
+2013-11-06 22:16:35,114 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/create_header/bg-0c1fb974cf06ea68a9d199468ab1ed0d.jpg -> 200 (420ms)
+2013-11-06 22:16:35,184 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/grid_cell_corner_featured-e8f9060e82491c49fc2f6ead8bfeee98.png -> 200 (463ms)
+2013-11-06 22:16:35,193 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/footer_social_icons-fa5bebf833d7a80bd9fe00e3d1d95f6e.png -> 200 (473ms)
+2013-11-06 22:16:35,269 - sauce_connect:0 - INFO - GET http://www.youtube.com/embed/ncqVw1sx-04?html5=1&fs=0&showinfo=0&modestbranding=1&wmode=transparent -> 200 (679ms)
+2013-11-06 22:16:36,345 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/create_header/bg-banner-3b3a4be22bc64ea78d153037769d2a3e.jpg -> 200 (1651ms)
+2013-11-06 22:16:36,361 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.ted.com/webfonts/icomoon-13-09-04.woff -> 200 (1571ms)
+2013-11-06 22:16:36,375 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690868/djzpupypddp5sfqeoiah.jpg -> 200 (2132ms)
+2013-11-06 22:16:36,403 - sauce_connect:0 - INFO - GET http://fast.fonts.com/d/4bff1fbb-b4bf-4d95-9c47-efcb14384e36.woff?d44f19a684109620e484157ea190e818a1262f6e443e6f7727eff2d49ca55c9b180b0b810c7138baa878423986f57da1fa80da773ef5ca6c2b28a433720a25e5d508e9f58425ed99b9e6ddfbf78e73983a92017a8e5c37f8ef2331e05d1729afddc9d315f7451efae3bb8d4273cb46c4254be32e7541bb9405d7a4adf07ccc0fc8aee835247c1a4b3fd54fc5a998de620696f470aef0a15d0e4b99e60702a9747b793b65e6bff441ce1eeb05ee85cf5a&projectId=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (1791ms)
+2013-11-06 22:16:36,499 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/featured_take_ted_ed_tour-7072b88ab2d21fa7c22c881fd04c1896.png -> 200 (2238ms)
+2013-11-06 22:16:36,528 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/icon_sprite-c9e217822c9192f3fcf2d8d8a31064a6.png -> 200 (1804ms)
+2013-11-06 22:16:36,661 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/featured_info_panel_background-06a7007280671b3f8fe8f669308b4f25.png -> 200 (1936ms)
+2013-11-06 22:16:36,665 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/icons-sc841902528-57541b32e46560422c60ae556119bc8e.png -> 200 (1974ms)
+2013-11-06 22:16:37,749 - sauce_connect:0 - INFO - GET http://s.ytimg.com/yts/cssbin/www-embed-player-vflJat-gX.css -> 200 (1608ms)
+2013-11-06 22:16:37,753 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/stay_updated/stay_updated_popup_bg.png -> 200 (3063ms)
+2013-11-06 22:16:38,230 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690867/xp5ysvsdaqg6oo8rxn3p.jpg -> 200 (3976ms)
+2013-11-06 22:16:38,233 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690868/sr6nefjysk0cu652t6xy.jpg -> 200 (3989ms)
+2013-11-06 22:16:38,247 - sauce_connect:0 - INFO - GET http://connect.facebook.net/en_US/all.js -> 200 (3658ms)
+2013-11-06 22:16:38,267 - sauce_connect:0 - INFO - GET http://fast.fonts.com/d/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff?d44f19a684109620e484157ea190e818a1262f6e443e6f7727eff2d49ca55c9b180b0b810c7138baa878423986f57da1fa80da773ef5ca6c2b28a433720a25e5d508e9f58425ed99b9e6ddfbf78e73983a92017a8e5c37f8ef2331e05d1729afddc9d315f7451efae3bb8d4273cb46c4254be32e7541bb9405d7a4adf07ccc0fc8aee835247c1a4b3fd54fc5a998de620696f470aef0a15d0e4b99e60702a9747b793b65e6bff441ce1eeb05ee85cf5a&projectId=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (3676ms)
+2013-11-06 22:16:38,345 - sauce_connect:0 - INFO - GET http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif -> 200 (295ms)
+2013-11-06 22:16:38,839 - sauce_connect:0 - INFO - GET http://s.ytimg.com/yts/jsbin/www-embed-player-vflcA2yen.js -> 200 (794ms)
+2013-11-06 22:16:39,584 - sauce_connect:0 - INFO - GET http://platform.twitter.com/widgets.js -> 200 (4927ms)
+2013-11-06 22:16:39,598 - sauce_connect:0 - INFO - GET http://static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (1036ms)
+2013-11-06 22:16:39,654 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690867/jq0admxkwwnj4jqfjwzt.jpg -> 200 (5387ms)
+2013-11-06 22:16:40,134 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690868/bvzx3a2yodybkqj49kh0.jpg -> 200 (5883ms)
+2013-11-06 22:16:40,171 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690868/k0gdmsrlqbsjm8yoxlqp.jpg -> 200 (5934ms)
+2013-11-06 22:16:40,177 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690867/kdv02dcercta09ieqaym.jpg -> 200 (5920ms)
+2013-11-06 22:16:40,355 - sauce_connect:0 - INFO - GET https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (1678ms)
+2013-11-06 22:16:40,711 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690864/cdqzobbt0psz51ahx4jf.jpg -> 200 (6446ms)
+2013-11-06 22:16:40,716 - sauce_connect:0 - INFO - GET http://s.ytimg.com/yts/jsbin/html5player-vfliZsE79.js -> 200 (2665ms)
+2013-11-06 22:16:41,046 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690867/jh1cqwzv3jwog89dgii7.jpg -> 200 (6792ms)
+2013-11-06 22:16:41,148 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690867/p9rstdokk1cdcb1yy6lf.jpg -> 200 (6889ms)
+2013-11-06 22:16:41,302 - sauce_connect:0 - INFO - GET http://s.ytimg.com/yts/cssbin/www-player-vflYwacA6.css -> 200 (136ms)
+2013-11-06 22:16:42,285 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/featured_take_ted_ed_tour_background-d542491c933aafb4d32253f8986bf442.png -> 200 (8021ms)
+2013-11-06 22:16:43,075 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/create_header/create-spr-sfcfaf89c7d-ed7f2137a6e2607bee6ec5bf8ebec98a.png -> 200 (8381ms)
+2013-11-06 22:16:43,081 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/application-c9abd765dd54cdb9ab3d51bef1d22291.js -> 200 (8840ms)
+2013-11-06 22:16:43,717 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/analytics.js -> 200 (64ms)
+2013-11-06 22:16:43,753 - sauce_connect:0 - INFO - GET http://www.youtube.com/player_api -> 200 (110ms)
+2013-11-06 22:16:43,770 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/ga.js -> 200 (118ms)
+2013-11-06 22:16:43,788 - sauce_connect:0 - INFO - GET http://platform.twitter.com/widgets/follow_button.1383343979.html -> 200 (138ms)
+2013-11-06 22:16:43,792 - sauce_connect:0 - INFO - GET http://www.youtube.com/iframe_api?_=1383805002348 -> 200 (106ms)
+2013-11-06 22:16:43,885 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/collect?v=1&_v=j14&a=1803749347&t=pageview&_s=1&dl=http%3A%2F%2Fteded-staging.herokuapp.com%2F&ul=en-us&de=UTF-8&dt=Lessons%20Worth%20Sharing%20%7C%20TED-Ed&sd=24-bit&sr=1024x768&vp=1007x684&je=1&fl=11.6%20r602&_u=ME~&cid=638415301.1383805003&tid=UA-42165091-1&z=684928638 -> 200 (33ms)
+2013-11-06 22:16:43,924 - sauce_connect:0 - INFO - GET http://www.facebook.com/plugins/like.php?api_key=347099038755884&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df38e713affb791e%26domain%3Dteded-staging.herokuapp.com%26origin%3Dhttp%253A%252F%252Fteded-staging.herokuapp.com%252Ff3de7c89be897c6%26relation%3Dparent.parent&colorscheme=light&extended_social_context=false&href=https%3A%2F%2Fwww.facebook.com%2FTEDEducation%E2%80%8E&layout=button_count&locale=en_US&node_type=link&sdk=joey&send=false&show_faces=false&width=90 -> 200 (247ms)
+2013-11-06 22:16:43,950 - sauce_connect:0 - INFO - GET http://s.ytimg.com/yts/jsbin/www-widgetapi-vflMWcllz.js -> 200 (44ms)
+2013-11-06 22:16:43,977 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.5&utms=1&utmn=961265222&utmhn=teded-staging.herokuapp.com&utmcs=UTF-8&utmsr=1024x768&utmvp=1007x684&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.6%20r602&utmdt=Lessons%20Worth%20Sharing%20%7C%20TED-Ed&utmhid=1803749347&utmr=-&utmp=%2F&utmht=1383805002918&utmac=UA-42165091-1&utmcc=__utma%3D40351911.638415301.1383805003.1383805003.1383805003.1%3B%2B__utmz%3D40351911.1383805003.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qAAAAAAAAAAAAAAAAAAB~ -> 200 (22ms)
+2013-11-06 22:16:44,012 - sauce_connect:0 - INFO - GET https://www.facebook.com/connect/ping?client_id=347099038755884&domain=teded-staging.herokuapp.com&origin=1&redirect_uri=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df1b5c86b5b2c5bc%26domain%3Dteded-staging.herokuapp.com%26origin%3Dhttp%253A%252F%252Fteded-staging.herokuapp.com%252Ff3de7c89be897c6%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey -> 200 (238ms)
+2013-11-06 22:16:44,084 - sauce_connect:0 - INFO - GET http://p.twitter.com/f.gif?_=1383805002469&id=twitter-widget-0&lang=en&screen_name=TED_ED&show_count=true&show_screen_name=true&size=m&twttr_variant=2.0&twttr_referrer=http%3A%2F%2Fteded-staging.herokuapp.com%2F&twttr_widget=1&twttr_hask=0&twttr_li=0&twttr_pid= -> 200 (99ms)
+2013-11-06 22:16:44,088 - sauce_connect:0 - INFO - GET http://cdn.api.twitter.com/1/users/show.json?screen_name=TED_ED&callback=twttr.setFollowersCount -> 200 (94ms)
+2013-11-06 22:16:44,115 - sauce_connect:0 - INFO - GET http://static.ak.fbcdn.net/rsrc.php/v2/y-/r/tbhIfdAHjXE.png -> 200 (82ms)
+2013-11-06 22:16:44,267 - sauce_connect:0 - INFO - GET http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/j-Cs4KJOvFH.js -> 200 (232ms)
+2013-11-06 22:16:44,497 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/tour_highlights_think_v2-f98848bd06c9497fece66a8ae3dc9e75.png -> 200 (815ms)
+2013-11-06 22:16:44,562 - sauce_connect:0 - INFO - GET https://twitter.com/i/jot?l=%7B%22_category_%22%3A%22tfw_client_event%22%2C%22language%22%3A%22en%22%2C%22client_version%22%3A%222.0%3Am%22%2C%22widget_origin%22%3A%22http%3A%2F%2Fteded-staging.herokuapp.com%2F%22%2C%22format_version%22%3A1%2C%22dnt%22%3Afalse%2C%22triggered_on%22%3A1383805002971%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22button%22%2C%22section%22%3A%22follow%22%2C%22action%22%3A%22impression%22%7D%7D -> 200 (530ms)
+2013-11-06 22:16:44,868 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/favicon.ico -> 200 (252ms)
+2013-11-06 22:16:45,039 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/favicon.ico -> 200 (132ms)
+2013-11-06 22:16:46,763 - sauce_connect:0 - INFO - received SIGINT
+2013-11-06 22:20:33,658 - sauce_connect:554 - INFO - / Starting \
+2013-11-06 22:20:33,665 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2013-11-06 22:20:33,677 - sauce_connect:567 - DEBUG - System is -7.0 hours off UTC
+2013-11-06 22:20:33,681 - sauce_connect:569 - DEBUG - options: {'user': 'oponcefranco', 'ports': ['50598'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2013-11-06 22:20:33,684 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['50598'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.6.8-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2013-11-06 22:20:33,687 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['50598']
+2013-11-06 22:20:33,703 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:50598 in 6ms
+2013-11-06 22:20:34,660 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["50598"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.6.8-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2013-11-06 22:20:39,265 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (64b651c1672d47afac2ada8b5f98a0aa)
+2013-11-06 22:20:39,884 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2013-11-06 22:20:51,250 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki10167.miso.saucelabs.com
+2013-11-06 22:20:51,266 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:50598 in 0ms
+2013-11-06 22:20:51,269 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2013-11-06 22:20:51,272 - sauce_connect:642 - INFO - Connecting to tunnel host maki10167.miso.saucelabs.com as oponcefranco
+2013-11-06 22:20:51,388 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 50602
+2013-11-06 22:20:51,394 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2013-11-06 22:20:51,634 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2013-11-06 22:20:51,653 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 14c17e2a17a248f3be4781e671203fa7
+2013-11-06 22:20:51,655 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2013-11-06 22:21:05,785 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/ -> 200 (453ms)
+2013-11-06 22:21:05,882 - sauce_connect:0 - INFO - GET http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css -> 200 (103ms)
+2013-11-06 22:21:06,201 - sauce_connect:0 - INFO - GET http://fast.fonts.com/cssapi/e1b361c6-3f49-479a-b49c-ae79f364d3a9.css -> 200 (420ms)
+2013-11-06 22:21:06,342 - sauce_connect:0 - INFO - GET http://fast.fonts.com/t/1.css?apiType=css&projectid=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (42ms)
+2013-11-06 22:21:06,588 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/modernizr-7d06f0b01eae0cbb7a81516487568c46.js -> 200 (792ms)
+2013-11-06 22:21:06,680 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/application-responsive-137b123a4be36222388c61b064055bbf.css -> 200 (898ms)
+2013-11-06 22:21:06,803 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/application-base-1e05407ab287df9cfbf3b7bfbb1055b7.css -> 200 (1026ms)
+2013-11-06 22:21:07,069 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/application-d41b9dad01113aabc3fd257be2c224d0.css -> 200 (1288ms)
+2013-11-06 22:21:07,434 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/assets/icon-ted.png -> 200 (321ms)
+2013-11-06 22:21:07,581 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/tour_next_button-64251350ac4add7e6249b41f31490c3f.png -> 200 (427ms)
+2013-11-06 22:21:07,696 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/assets/busy.gif -> 200 (533ms)
+2013-11-06 22:21:08,013 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690868/djzpupypddp5sfqeoiah.jpg -> 200 (851ms)
+2013-11-06 22:21:08,196 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/ted_footer_logo_gray-6d1b01898d55d096a7fa32eea28382cb.png -> 200 (758ms)
+2013-11-06 22:21:08,198 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/ico-search-d698f2666e61955a1a3f7331674a7099.png -> 200 (550ms)
+2013-11-06 22:21:08,285 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/featured_info_panel_background-06a7007280671b3f8fe8f669308b4f25.png -> 200 (644ms)
+2013-11-06 22:21:08,309 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/icon_sprite-c9e217822c9192f3fcf2d8d8a31064a6.png -> 200 (668ms)
+2013-11-06 22:21:08,315 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/create_header/bg-0c1fb974cf06ea68a9d199468ab1ed0d.jpg -> 200 (664ms)
+2013-11-06 22:21:08,740 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/footer_social_icons-fa5bebf833d7a80bd9fe00e3d1d95f6e.png -> 200 (917ms)
+2013-11-06 22:21:08,822 - sauce_connect:0 - INFO - GET http://www.youtube.com/embed/ncqVw1sx-04?html5=1&fs=0&showinfo=0&modestbranding=1&wmode=transparent -> 200 (1345ms)
+2013-11-06 22:21:09,252 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690868/k0gdmsrlqbsjm8yoxlqp.jpg -> 200 (2104ms)
+2013-11-06 22:21:09,288 - sauce_connect:0 - INFO - GET http://fast.fonts.com/d/14ff6081-326d-4dae-b778-d7afa66166fc.woff?d44f19a684109620e484157ea190e818a1262f6e443e6f7727eff2d49ca55c9b180b0b810c7138baa878423986f57da1fa80da773ef5ca6c2b28a433720a25e5d508e9f58425ed99b9e6ddfbf78e73983a92017a8e5c37f8ef2331e05d1729afddc9d315f7451efae3bb8d4273cb46c4254be32e7541bb9405d7a4adf07ccc0fc8aee835247c1a4b3fd54fc5a998de620696f470aef0a15d0e4b99e60702a9747b793b65e6bff441ce1eeb05ee85cf5a&projectId=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (1643ms)
+2013-11-06 22:21:09,296 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/featured_take_ted_ed_tour-7072b88ab2d21fa7c22c881fd04c1896.png -> 200 (2146ms)
+2013-11-06 22:21:09,302 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/create_header/bg-banner-3b3a4be22bc64ea78d153037769d2a3e.jpg -> 200 (1652ms)
+2013-11-06 22:21:09,305 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/grid_cell_corner_featured-e8f9060e82491c49fc2f6ead8bfeee98.png -> 200 (1284ms)
+2013-11-06 22:21:10,171 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690868/bvzx3a2yodybkqj49kh0.jpg -> 200 (3019ms)
+2013-11-06 22:21:10,200 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690867/jq0admxkwwnj4jqfjwzt.jpg -> 200 (3032ms)
+2013-11-06 22:21:10,213 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690867/kdv02dcercta09ieqaym.jpg -> 200 (3055ms)
+2013-11-06 22:21:10,269 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.ted.com/webfonts/icomoon-13-09-04.woff -> 200 (2436ms)
+2013-11-06 22:21:10,788 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690868/sr6nefjysk0cu652t6xy.jpg -> 200 (3627ms)
+2013-11-06 22:21:10,812 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690864/cdqzobbt0psz51ahx4jf.jpg -> 200 (3645ms)
+2013-11-06 22:21:10,832 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690867/xp5ysvsdaqg6oo8rxn3p.jpg -> 200 (3671ms)
+2013-11-06 22:21:10,834 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690867/jh1cqwzv3jwog89dgii7.jpg -> 200 (3668ms)
+2013-11-06 22:21:10,871 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/icons-sc841902528-57541b32e46560422c60ae556119bc8e.png -> 200 (3230ms)
+2013-11-06 22:21:10,881 - sauce_connect:0 - INFO - GET http://s.ytimg.com/yts/cssbin/www-embed-player-vflJat-gX.css -> 200 (1332ms)
+2013-11-06 22:21:10,888 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/stay_updated/stay_updated_popup_bg.png -> 200 (3063ms)
+2013-11-06 22:21:10,957 - sauce_connect:0 - INFO - GET http://platform.twitter.com/widgets.js -> 200 (3316ms)
+2013-11-06 22:21:11,828 - sauce_connect:0 - INFO - GET http://fast.fonts.com/d/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff?d44f19a684109620e484157ea190e818a1262f6e443e6f7727eff2d49ca55c9b180b0b810c7138baa878423986f57da1fa80da773ef5ca6c2b28a433720a25e5d508e9f58425ed99b9e6ddfbf78e73983a92017a8e5c37f8ef2331e05d1729afddc9d315f7451efae3bb8d4273cb46c4254be32e7541bb9405d7a4adf07ccc0fc8aee835247c1a4b3fd54fc5a998de620696f470aef0a15d0e4b99e60702a9747b793b65e6bff441ce1eeb05ee85cf5a&projectId=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (4203ms)
+2013-11-06 22:21:12,210 - sauce_connect:0 - INFO - GET http://res.cloudinary.com/handanfjj/image/upload/v1383690867/p9rstdokk1cdcb1yy6lf.jpg -> 200 (5042ms)
+2013-11-06 22:21:12,234 - sauce_connect:0 - INFO - GET http://connect.facebook.net/en_US/all.js -> 200 (4753ms)
+2013-11-06 22:21:12,279 - sauce_connect:0 - INFO - GET http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif -> 200 (466ms)
+2013-11-06 22:21:12,282 - sauce_connect:0 - INFO - GET http://s.ytimg.com/yts/jsbin/www-embed-player-vflcA2yen.js -> 200 (684ms)
+2013-11-06 22:21:12,805 - sauce_connect:0 - INFO - GET http://fast.fonts.com/d/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff?d44f19a684109620e484157ea190e818a1262f6e443e6f7727eff2d49ca55c9b180b0b810c7138baa878423986f57da1fa80da773ef5ca6c2b28a433720a25e5d508e9f58425ed99b9e6ddfbf78e73983a92017a8e5c37f8ef2331e05d1729afddc9d315f7451efae3bb8d4273cb46c4254be32e7541bb9405d7a4adf07ccc0fc8aee835247c1a4b3fd54fc5a998de620696f470aef0a15d0e4b99e60702a9747b793b65e6bff441ce1eeb05ee85cf5a&projectId=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (4973ms)
+2013-11-06 22:21:12,855 - sauce_connect:0 - INFO - GET http://fast.fonts.com/d/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff?d44f19a684109620e484157ea190e818a1262f6e443e6f7727eff2d49ca55c9b180b0b810c7138baa878423986f57da1fa80da773ef5ca6c2b28a433720a25e5d508e9f58425ed99b9e6ddfbf78e73983a92017a8e5c37f8ef2331e05d1729afddc9d315f7451efae3bb8d4273cb46c4254be32e7541bb9405d7a4adf07ccc0fc8aee835247c1a4b3fd54fc5a998de620696f470aef0a15d0e4b99e60702a9747b793b65e6bff441ce1eeb05ee85cf5a&projectId=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (5212ms)
+2013-11-06 22:21:13,267 - sauce_connect:0 - INFO - GET http://s.ytimg.com/yts/jsbin/html5player-vfliZsE79.js -> 200 (1658ms)
+2013-11-06 22:21:13,286 - sauce_connect:0 - INFO - GET http://fast.fonts.com/d/4bff1fbb-b4bf-4d95-9c47-efcb14384e36.woff?d44f19a684109620e484157ea190e818a1262f6e443e6f7727eff2d49ca55c9b180b0b810c7138baa878423986f57da1fa80da773ef5ca6c2b28a433720a25e5d508e9f58425ed99b9e6ddfbf78e73983a92017a8e5c37f8ef2331e05d1729afddc9d315f7451efae3bb8d4273cb46c4254be32e7541bb9405d7a4adf07ccc0fc8aee835247c1a4b3fd54fc5a998de620696f470aef0a15d0e4b99e60702a9747b793b65e6bff441ce1eeb05ee85cf5a&projectId=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (5450ms)
+2013-11-06 22:21:13,614 - sauce_connect:0 - INFO - GET http://static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (729ms)
+2013-11-06 22:21:13,737 - sauce_connect:0 - INFO - GET https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (685ms)
+2013-11-06 22:21:13,973 - sauce_connect:0 - INFO - GET http://s.ytimg.com/yts/cssbin/www-player-vflYwacA6.css -> 200 (51ms)
+2013-11-06 22:21:14,536 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/featured_take_ted_ed_tour_background-d542491c933aafb4d32253f8986bf442.png -> 200 (7386ms)
+2013-11-06 22:21:15,288 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/application-c9abd765dd54cdb9ab3d51bef1d22291.js -> 200 (8164ms)
+2013-11-06 22:21:15,756 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/create_header/create-spr-sfcfaf89c7d-ed7f2137a6e2607bee6ec5bf8ebec98a.png -> 200 (8112ms)
+2013-11-06 22:21:15,946 - sauce_connect:0 - INFO - GET http://www.youtube.com/player_api -> 200 (79ms)
+2013-11-06 22:21:15,957 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/analytics.js -> 200 (71ms)
+2013-11-06 22:21:15,977 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/ga.js -> 200 (110ms)
+2013-11-06 22:21:16,023 - sauce_connect:0 - INFO - GET http://www.youtube.com/iframe_api?_=1383805273750 -> 200 (103ms)
+2013-11-06 22:21:16,082 - sauce_connect:0 - INFO - GET http://platform.twitter.com/widgets/follow_button.1383343979.html -> 200 (195ms)
+2013-11-06 22:21:16,217 - sauce_connect:0 - INFO - GET http://s.ytimg.com/yts/jsbin/www-widgetapi-vflMWcllz.js -> 200 (33ms)
+2013-11-06 22:21:16,253 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/collect?v=1&_v=j14&a=1238133548&t=pageview&_s=1&dl=http%3A%2F%2Fteded-staging.herokuapp.com%2F&ul=en-us&de=UTF-8&dt=Lessons%20Worth%20Sharing%20%7C%20TED-Ed&sd=24-bit&sr=1024x768&vp=1007x684&je=1&fl=11.6%20r602&_u=ME~&cid=1478813355.1383805274&tid=UA-42165091-1&z=1357887064 -> 200 (29ms)
+2013-11-06 22:21:16,256 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.5&utms=1&utmn=1769138873&utmhn=teded-staging.herokuapp.com&utmcs=UTF-8&utmsr=1024x768&utmvp=1007x684&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.6%20r602&utmdt=Lessons%20Worth%20Sharing%20%7C%20TED-Ed&utmhid=1238133548&utmr=-&utmp=%2F&utmht=1383805274348&utmac=UA-42165091-1&utmcc=__utma%3D40351911.1478813355.1383805274.1383805274.1383805274.1%3B%2B__utmz%3D40351911.1383805274.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qAAAAAAAAAAAAAAAAAAB~ -> 200 (37ms)
+2013-11-06 22:21:16,341 - sauce_connect:0 - INFO - GET http://p.twitter.com/f.gif?_=1383805273830&id=twitter-widget-0&lang=en&screen_name=TED_ED&show_count=true&show_screen_name=true&size=m&twttr_variant=2.0&twttr_referrer=http%3A%2F%2Fteded-staging.herokuapp.com%2F&twttr_widget=1&twttr_hask=0&twttr_li=0&twttr_pid= -> 200 (87ms)
+2013-11-06 22:21:16,342 - sauce_connect:0 - INFO - GET http://cdn.api.twitter.com/1/users/show.json?screen_name=TED_ED&callback=twttr.setFollowersCount -> 200 (91ms)
+2013-11-06 22:21:16,398 - sauce_connect:0 - INFO - GET http://www.facebook.com/plugins/like.php?api_key=347099038755884&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df3aa5271cf0e39e%26domain%3Dteded-staging.herokuapp.com%26origin%3Dhttp%253A%252F%252Fteded-staging.herokuapp.com%252Ff3605301b16ad64%26relation%3Dparent.parent&colorscheme=light&extended_social_context=false&href=https%3A%2F%2Fwww.facebook.com%2FTEDEducation%E2%80%8E&layout=button_count&locale=en_US&node_type=link&sdk=joey&send=false&show_faces=false&width=90 -> 200 (490ms)
+2013-11-06 22:21:16,444 - sauce_connect:0 - INFO - GET https://www.facebook.com/connect/ping?client_id=347099038755884&domain=teded-staging.herokuapp.com&origin=1&redirect_uri=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df373402259203b4%26domain%3Dteded-staging.herokuapp.com%26origin%3Dhttp%253A%252F%252Fteded-staging.herokuapp.com%252Ff3605301b16ad64%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey -> 200 (496ms)
+2013-11-06 22:21:16,483 - sauce_connect:0 - INFO - GET https://twitter.com/i/jot?l=%7B%22_category_%22%3A%22tfw_client_event%22%2C%22language%22%3A%22en%22%2C%22client_version%22%3A%222.0%3Am%22%2C%22widget_origin%22%3A%22http%3A%2F%2Fteded-staging.herokuapp.com%2F%22%2C%22format_version%22%3A1%2C%22dnt%22%3Afalse%2C%22triggered_on%22%3A1383805274401%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22button%22%2C%22section%22%3A%22follow%22%2C%22action%22%3A%22impression%22%7D%7D -> 200 (179ms)
+2013-11-06 22:21:16,585 - sauce_connect:0 - INFO - GET http://static.ak.fbcdn.net/rsrc.php/v2/y-/r/tbhIfdAHjXE.png -> 200 (67ms)
+2013-11-06 22:21:16,831 - sauce_connect:0 - INFO - GET http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/j-Cs4KJOvFH.js -> 200 (346ms)
+2013-11-06 22:21:16,862 - sauce_connect:0 - INFO - GET http://s3.amazonaws.com/assets.teded-staging.com/assets/tour_highlights_think_v2-f98848bd06c9497fece66a8ae3dc9e75.png -> 200 (970ms)
+2013-11-06 22:21:17,141 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/favicon.ico -> 200 (224ms)
+2013-11-06 22:21:17,306 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/favicon.ico -> 200 (124ms)
+2013-11-06 22:21:17,571 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/ -> 200 (389ms)
+2013-11-06 22:21:17,904 - sauce_connect:0 - INFO - GET http://fast.fonts.com/t/1.css?apiType=css&projectid=e1b361c6-3f49-479a-b49c-ae79f364d3a9 -> 200 (24ms)
+2013-11-06 22:21:18,441 - sauce_connect:0 - INFO - GET http://www.youtube.com/player_api -> 200 (46ms)
+2013-11-06 22:21:18,492 - sauce_connect:0 - INFO - GET http://www.youtube.com/embed/ncqVw1sx-04?html5=1&fs=0&showinfo=0&modestbranding=1&wmode=transparent -> 200 (95ms)
+2013-11-06 22:21:18,505 - sauce_connect:0 - INFO - GET http://www.youtube.com/iframe_api?_=1383805276294 -> 200 (48ms)
+2013-11-06 22:21:18,509 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/assets/icon-ted.png -> 200 (124ms)
+2013-11-06 22:21:18,519 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/assets/busy.gif -> 200 (120ms)
+2013-11-06 22:21:18,556 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.5&utms=2&utmn=1958312174&utmhn=teded-staging.herokuapp.com&utmcs=UTF-8&utmsr=1024x768&utmvp=1007x684&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.6%20r602&utmdt=Lessons%20Worth%20Sharing%20%7C%20TED-Ed&utmhid=702271634&utmr=-&utmp=%2F&utmht=1383805276621&utmac=UA-42165091-1&utmcc=__utma%3D40351911.1478813355.1383805274.1383805274.1383805274.1%3B%2B__utmz%3D40351911.1383805274.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=q~ -> 200 (34ms)
+2013-11-06 22:21:18,559 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/collect?v=1&_v=j14&a=702271634&t=pageview&_s=1&dl=http%3A%2F%2Fteded-staging.herokuapp.com%2F&ul=en-us&de=UTF-8&dt=Lessons%20Worth%20Sharing%20%7C%20TED-Ed&sd=24-bit&sr=1024x768&vp=1007x684&je=1&fl=11.6%20r602&_utma=40351911.1478813355.1383805274.1383805274.1383805274.1&_utmz=40351911.1383805274.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&_utmht=1383805276646&_u=MACC~&cid=1478813355.1383805274&tid=UA-42165091-1&z=816621065 -> 200 (32ms)
+2013-11-06 22:21:18,724 - sauce_connect:0 - INFO - GET http://cdn.api.twitter.com/1/users/show.json?screen_name=TED_ED&callback=twttr.setFollowersCount -> 200 (47ms)
+2013-11-06 22:21:18,727 - sauce_connect:0 - INFO - GET https://twitter.com/i/jot?l=%7B%22_category_%22%3A%22tfw_client_event%22%2C%22language%22%3A%22en%22%2C%22client_version%22%3A%222.0%3Am%22%2C%22widget_origin%22%3A%22http%3A%2F%2Fteded-staging.herokuapp.com%2F%22%2C%22format_version%22%3A1%2C%22dnt%22%3Afalse%2C%22triggered_on%22%3A1383805276771%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22button%22%2C%22section%22%3A%22follow%22%2C%22action%22%3A%22impression%22%7D%7D -> 200 (49ms)
+2013-11-06 22:21:18,750 - sauce_connect:0 - INFO - GET http://p.twitter.com/f.gif?_=1383805276588&id=twitter-widget-0&lang=en&screen_name=TED_ED&show_count=true&show_screen_name=true&size=m&twttr_variant=2.0&twttr_referrer=http%3A%2F%2Fteded-staging.herokuapp.com%2F&twttr_widget=1&twttr_hask=0&twttr_li=0&twttr_pid= -> 200 (73ms)
+2013-11-06 22:21:19,582 - sauce_connect:0 - INFO - GET https://www.facebook.com/connect/ping?client_id=347099038755884&domain=teded-staging.herokuapp.com&origin=1&redirect_uri=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df37b62ab2be34d%26domain%3Dteded-staging.herokuapp.com%26origin%3Dhttp%253A%252F%252Fteded-staging.herokuapp.com%252Ff332f5e295d0b5a%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey -> 200 (63ms)
+2013-11-06 22:21:19,618 - sauce_connect:0 - INFO - GET http://www.facebook.com/plugins/like.php?api_key=347099038755884&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df1ab2bdbdfb5f28%26domain%3Dteded-staging.herokuapp.com%26origin%3Dhttp%253A%252F%252Fteded-staging.herokuapp.com%252Ff332f5e295d0b5a%26relation%3Dparent.parent&colorscheme=light&extended_social_context=false&href=https%3A%2F%2Fwww.facebook.com%2FTEDEducation%E2%80%8E&layout=button_count&locale=en_US&node_type=link&sdk=joey&send=false&show_faces=false&width=90 -> 200 (103ms)
+2013-11-06 22:21:19,642 - sauce_connect:0 - INFO - GET http://teded-staging.herokuapp.com/favicon.ico -> 200 (122ms)
+2013-11-06 22:21:21,697 - sauce_connect:0 - INFO - received SIGINT
