@@ -1,6 +1,7 @@
 require 'spec_helper'
 
-# feature 'Visitor signs up', :sauce => true do # run test against sauce labs
+# run test against sauce labs
+# feature 'Visitor signs up', :sauce => true do
 feature 'Visitor signs up' do
   scenario 'with valid email and password' do
     homepage_path

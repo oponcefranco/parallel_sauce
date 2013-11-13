@@ -11,9 +11,9 @@ Capybara.register_driver(:selenium) { |app| Capybara::Selenium::Driver.new(app, 
 Sauce.config do |config|
   config[:start_tunnel] = false
   config[:browsers] = [
-    # ["OS X 10.6", "googlechrome", ""],
-    # ["OS X 10.8", "googlechrome", ""],
-    # ["Windows 8", "firefox", "23"],
+    ["OS X 10.6", "googlechrome", ""],
+    ["OS X 10.8", "googlechrome", ""],
+    ["Windows 8", "firefox", "23"],
     ["Windows 7", "iehta", "9"]
   ]
 end
