@@ -3,15 +3,15 @@
 require "sauce"
 require "sauce/capybara"
 
-Capybara.default_driver = :selenium # :selenium or :sauce
+Capybara.default_driver = :sauce # :selenium or :sauce
 Capybara.run_server = true
 
 Capybara.register_driver(:selenium) do |app| 
-  Capybara::Selenium::Driver.new(app, { :browser => :firefox } )
+  Capybara::Selenium::Driver.new(app, { :browser => :chrome } )
 end
 
 Sauce.config do |config|
-  config[:start_tunnel] = false
+  # config[:start_tunnel] = false
   config[:browsers] = [
       ["OS X 10.8", "googlechrome", ""],
       ["OS X 10.8", "safari", "6"],
