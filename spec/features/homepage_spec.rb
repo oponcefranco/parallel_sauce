@@ -1,6 +1,6 @@
 # require "spec_helper"
 # 
-# describe "TED-Ed", :sauce => true do
+# describe "Site", :sauce => true do
 #   
 #   context "Homepage" do
 #     

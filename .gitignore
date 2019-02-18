@@ -17,3 +17,6 @@
 
 # RubyMine artifacts
 .idea/
+
+# Sauce log
+sauce_connect.log
