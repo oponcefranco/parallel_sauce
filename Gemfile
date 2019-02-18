@@ -39,6 +39,9 @@ end
 group :test, :development do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'sauce'
+  gem 'sauce-connect'
+  gem 'sauce_whisk'
   gem 'parallel_tests'
   gem 'factory_bot_rails', '~> 5.0', '>= 5.0.1'
 end

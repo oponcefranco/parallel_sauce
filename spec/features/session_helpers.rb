@@ -1,15 +1,15 @@
 module Features
   module SessionHelpers
     def url
-      @url   = FactoryGirl.create(:staging)
+      @url   = FactoryBot.create(:staging)
     end
     
     def user
-      @user  = FactoryGirl.build(:user)
+      @user  = FactoryBot.build(:user)
     end
     
     def email
-      @email = FactoryGirl.generate(:email)
+      @email = FactoryBot.generate(:email)
     end
     
     def homepage_path
@@ -40,11 +40,11 @@ module Features
     end
     
     def sign_in
-      @user = FactoryGirl.build(
+      @user = FactoryBot.build(
         :user, 
-        first_name: 'John', 
-        last_name: 'Silva', 
-        email: 'test_user_100years@yahoo.com',
+        first_name: 'Test',
+        last_name: 'User',
+        email: 'test@example.com',
         password: 'password123'
         )
       sign_in_path
