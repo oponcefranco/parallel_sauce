@@ -14,3 +14,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# RubyMine artifacts
+.idea/
+
+# Sauce log
+sauce_connect.log

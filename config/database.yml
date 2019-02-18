@@ -1,20 +1,16 @@
 defaults: &defaults
-    adapter: mysql2
-    encoding: utf8
-    reconnect: false
-    socket: /tmp/mysql.sock
+    adapter: sqlite3
     pool: 5
-    username: root
-    password:
+    timeout: 5000
 
 development:
-    database: parallel_sauce_development
+    database: db/development.sqlite3
     <<: *defaults
 
 test: &test
-    database: parallel_sauce_test
+    database: db/test.sqlite3
     <<: *defaults
 
 production:
-    database: parallel_sauce_production
+    database: db/production.sqlite3
     <<: *defaults

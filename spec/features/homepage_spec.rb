@@ -1,12 +1,12 @@
 # require "spec_helper"
 # 
-# describe "TED-Ed", :sauce => true do
+# describe "Site", :sauce => true do
 #   
 #   context "Homepage" do
 #     
 #     before :all do
-#       @url = FactoryGirl.create(:staging)
-#       @email = FactoryGirl.generate(:email)
+#       @url = FactoryBot.create(:staging)
+#       @email = FactoryBot.generate(:email)
 #     end
 #     
 #     before :each do

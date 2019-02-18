@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :url, class: String do
     skip_create
     

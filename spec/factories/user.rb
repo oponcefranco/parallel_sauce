@@ -10,7 +10,7 @@ class User
   end
 end
 
-FactoryGirl.define do
+FactoryBot.define do
   sequence(:email) { |n| "email#{n}@example.com" }
   sequence(:count)
   
