@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '2.4.1'
+ruby '2.7.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.2', '>= 4.2.11'
-gem 'bundler', '~> 1.17', '>= 1.17.3'
+gem 'rails', '~> 4.2', '>= 4.2.11.3'
+gem 'bundler'
 gem 'puma'
 
 # Use sqlite3 as the database for Active Record
