@@ -4,8 +4,8 @@ ruby '2.7.1'
 gem 'bundler'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.2', '>= 4.2.11.3'
-gem "rack", ">= 2.1.4"
+gem 'rails', '~> 5.0.0.beta1'
+gem "rack"
 gem 'puma'
 
 # Use sqlite3 as the database for Active Record
@@ -44,8 +44,8 @@ group :test, :development do
   gem 'sauce-connect'
   gem 'sauce_whisk'
   gem 'parallel_tests'
-  gem 'parallel-sauce', '~> 0.1.0'
-  gem 'factory_bot_rails', '~> 5.0', '>= 5.0.1'
+  gem 'parallel-sauce'
+  gem 'factory_bot_rails'
 end
 
 # Use ActiveModel has_secure_password
