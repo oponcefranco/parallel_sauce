@@ -46,6 +46,7 @@ group :test, :development do
   gem 'parallel_tests'
   gem 'parallel-sauce'
   gem 'factory_bot_rails'
+  gem 'actionpack'
 end
 
 # Use ActiveModel has_secure_password
