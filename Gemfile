@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.7.1'
+ruby '2.7.3'
 gem 'bundler'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -46,6 +46,7 @@ group :test, :development do
   gem 'parallel_tests'
   gem 'parallel-sauce'
   gem 'factory_bot_rails'
+  gem 'actionpack'
 end
 
 # Use ActiveModel has_secure_password
