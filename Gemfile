@@ -4,7 +4,7 @@ ruby '2.7.3'
 gem 'bundler'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2', '>= 5.2.4.4'
+gem 'rails', '>= 6.1.6'
 gem "rack"
 gem 'puma'
 
@@ -48,15 +48,3 @@ group :test, :development do
   gem 'factory_bot_rails'
   gem 'actionpack'
 end
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.1.2'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
