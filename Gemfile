@@ -4,7 +4,7 @@ ruby '2.7.3'
 gem 'bundler'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '>= 6.1.7'
+gem 'rails', '>= 7.0.1'
 gem "rack"
 gem 'puma'
 

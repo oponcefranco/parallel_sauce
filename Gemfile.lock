@@ -262,7 +262,7 @@ DEPENDENCIES
   parallel_tests
   puma
   rack
-  rails (>= 6.1.6)
+  rails (>= 7.0.1)
   rspec-rails
   sauce
   sauce-connect
